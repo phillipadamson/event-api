@@ -1,0 +1,28 @@
+{
+  "name": "event-api",
+  "version": "1.0.0",
+  "description": "This is the event api. It will have event and point end points.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "lint": "eslint --config .eslintrc \"src/**\""
+  },
+  "author": "Phillip Adamson",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-standard": "^6.0.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.0"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.0",
+    "express": "^4.14.0",
+    "express-jwt": "^3.4.0",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.6.0",
+    "morgan": "^1.7.0"
+  }
+}

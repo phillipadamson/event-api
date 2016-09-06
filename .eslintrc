@@ -1,0 +1,17 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "extends": "standard",
+  "rules": {
+      "quotes": [1, "single"],
+      "indent": [1, 4],
+      "no-unused-vars": 1,
+      "no-extra-semi": 1,
+      "semi": 0,
+      "space-before-function-paren": 1,
+      "no-trailing-spaces": 1
+  }
+}
